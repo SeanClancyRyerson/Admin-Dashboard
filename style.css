@@ -134,7 +134,7 @@ table {
 /* End of CSS Style reset */
 
 :root {
-    --bg-color: #d8d8d8;
+    --bg-color: #dbdbdb;
     background-color: var(--bg-color);
     font-family: 'Roboto', sans-serif;
 }
@@ -161,7 +161,7 @@ body {
 }
 
 .content-box {
-    background-color: rgb(231, 205, 255);
+    background-color: var(--bg-color);
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -169,7 +169,7 @@ body {
 }
 
 .your-projects {
-    background-color: rgb(212, 234, 253);
+    background-color: var(--bg-color);
     grid-row: 1 / -1;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -181,6 +181,26 @@ body {
 .project-box {
     background-color: beige;
     border-radius: 1em;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 3fr 1fr;
+}
+
+.project-text {
+    grid-column: 1 / -1;
+    padding: 15px;
+    padding-top: 30px;
+}
+
+.project-name {
+    font-weight: 700;
+}
+
+.project-button-box {
+    grid-column: 2 / 3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .announcements {
