@@ -201,6 +201,12 @@ body {
     gap: 15px;
 }
 
+.handle-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
 .handle-intro {
     font-size: .9em;
 }
