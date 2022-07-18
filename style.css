@@ -268,10 +268,26 @@ body {
 
 .announcements {
     background-color: rgb(177, 132, 132);
+    border-radius: 1em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.11), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 .trending {
     background-color: rgb(108, 165, 111);
+    border-radius: 1em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.11), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.trending-box {
+    display: flex;
+}
+
+.small-profile {
+    width: 3em;
+    height: auto;
+}
+
+.big-profile {
+    width: 5em;
+    height: auto;
 }
