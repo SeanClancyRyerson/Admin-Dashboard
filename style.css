@@ -293,18 +293,24 @@ body {
 }
 
 .project-box {
-    background-color: beige;
+    background-color: var(--off-white);
     border-radius: 1em;
     display: grid;
     grid-template-columns: 3fr 2fr;
     grid-template-rows: 3fr 1fr;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.11), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    border: solid;
+    border-width: 0 0 0 1em;
+    border-color: var(--accent-yellow);
 }
 
 .project-text {
     grid-column: 1 / -1;
     padding: 15px;
     padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
 }
 
 .project-name {
@@ -316,6 +322,14 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.project-desc {
+    color: #737373;
+}
+
+.project-button:hover {
+    cursor: pointer;
 }
 
 .announcements {
