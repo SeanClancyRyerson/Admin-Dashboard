@@ -136,7 +136,7 @@ table {
 :root {
     --bg-color: #e4e4e7;
     --off-white: #f8fafc;
-    --accent-blue: #3b82f6;
+    --accent-blue: #0ea5e9;
     --accent-yellow: #fcd34d;
     background-color: var(--bg-color);
     font-family: 'Roboto', sans-serif;
@@ -179,6 +179,20 @@ body {
     gap: 20px;
 }
 
+.post-button {
+    height: 3em;
+    width: 8em;
+    border-radius: 3em;
+    border: none;
+    background-color: var(--accent-blue);
+    color: var(--off-white);
+    font-weight: 700;
+}
+
+.post-button:active {
+    background-color: #0284c7;
+    transform: translateY(2px);
+}
 
 .handle {
     display: flex;
