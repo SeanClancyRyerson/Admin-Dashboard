@@ -156,8 +156,40 @@ body {
 }
 
 .sidebar {
-    background-color: rgb(73, 158, 255);
+    background-color: rgb(76, 144, 221);
     grid-row: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.sidebar-option {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 25px;
+}
+
+.dash-title {
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    padding-top: 25px;
+}
+
+.sidebar-option>a {
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    
+    
+}
+
+.sidebar-setting {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 25px;
 }
 
 .content-box {
