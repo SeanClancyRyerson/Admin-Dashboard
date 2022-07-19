@@ -386,6 +386,13 @@ body {
 .trending-profile {
     display: flex;
     flex-direction: column;
+    padding-left: 15px;
+    gap: 3px;
+}
+
+.trending-bio {
+    font-size: .95em;
+    color: #737373;
 }
 
 .small-profile {
