@@ -151,7 +151,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 5fr;
-    gap: 25px;
 }
 
 .header {
@@ -289,7 +288,7 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 25px;
-    
+    margin: 25px;
 }
 
 .project-box {
@@ -342,7 +341,8 @@ body {
     justify-content: space-around;
     gap: 25px;
     padding: 25px;
-    
+    margin-top: 25px;
+    margin-right: 25px;
 }
 
 .announce-box {
