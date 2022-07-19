@@ -281,6 +281,19 @@ body {
     gap: 25px;
 }
 
+.section-title {
+    font-size: 1.5em;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.projects {
+    grid-row: 1 / -1;
+    gap: 25px;
+    margin: 25px;
+    padding-bottom: 25px;
+}
+
 .your-projects {
     background-color: var(--bg-color);
     grid-row: 1 / -1;
@@ -288,7 +301,7 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 25px;
-    margin: 25px;
+    height: 100%;
 }
 
 .project-box {
@@ -332,6 +345,10 @@ body {
     cursor: pointer;
 }
 
+.announce-container {
+    margin-top: 25px;
+}
+
 .announcements {
     background-color: var(--off-white);
     border-radius: 1em;
@@ -341,7 +358,6 @@ body {
     justify-content: space-around;
     gap: 25px;
     padding: 25px;
-    margin-top: 25px;
     margin-right: 25px;
 }
 
@@ -366,6 +382,12 @@ body {
     height: 2px;
 }
 
+.trending-container {
+    grid-column: -2;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+
 .trending {
     background-color: var(--off-white);
     border-radius: 1em;
@@ -374,7 +396,7 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     margin-right: 25px;
-    margin-bottom: 25px;
+    height: 100%;
 }
 
 .trending-box {
